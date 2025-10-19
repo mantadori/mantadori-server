@@ -1,0 +1,25 @@
+name: admin_server
+description: REST API server built with Dart and Shelf.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.8.1
+
+# Add regular dependencies here.
+dependencies:
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  hive: ^2.2.3
+  get_it: ^8.2.0
+  json_serializable: ^6.9.0
+  json_annotation: ^4.9.0
+  path: ^1.9.1
+  uuid: ^4.5.1
+  dotenv: ^4.2.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
+  hive_generator: ^2.0.1
+  build_runner:
